@@ -40,3 +40,16 @@ body {
 .hud-main-text {
     text-align: center;
 }
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(79, 223, 136);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBar {
+    height: 100%;
+    background: rgb(79, 223, 136);
+    width: 0%;
+}
