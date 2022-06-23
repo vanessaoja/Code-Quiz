@@ -3,13 +3,13 @@
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 100px;
     color:aquamarine;
     margin-bottom: 5rem;
 }
 h2 {
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
+    font-size: 100px;
+
 }
 .container {
     width: 100vw;

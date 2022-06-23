@@ -3,10 +3,40 @@ body {
 }
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
+    margin-bottom: 10px;
     width: 100%;
     border-radius: 4px;
     background: blueviolet;
     font-size: 3rem;
     min-width: 80rem;
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem, 1.4rem  0; color: aqua;
+    transform: scale(1.02);
+    transform: transform 300ms;
+}
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: cyan;
+}
+.choice-text {
+    padding: 2rem 2.5rem
+}
+.correct{
+    background: linear-gradient rgb(79, 223, 136);
+}
+.incorrect {
+    background: linear-gradient rgb(237, 4, 4);
+}
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text {
+    text-align: center;
 }
