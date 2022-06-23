@@ -15,7 +15,7 @@ h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
 }
-.copntainer {
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -57,5 +57,9 @@ h2 {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(21, 198, 235, 217);
     transition: transform 150ms;
-
+}
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
