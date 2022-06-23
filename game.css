@@ -1,0 +1,12 @@
+body {
+    color: aqua;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: blueviolet;
+    font-size: 3rem;
+    min-width: 80rem;
+}
